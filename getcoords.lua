@@ -1,3 +1,9 @@
+function notify(msg)
+    SetNotificationTextEntry("STRING")
+    AddTextComponentString(msg)
+    DrawNotification(true, false)
+end
+
 RegisterCommand("getcoords", function()
     x, y, z = table.unpack(GetEntityCoords(GetPlayerPed(-1), true))
 		
