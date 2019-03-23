@@ -1,3 +1,2 @@
-# do not edit anything except colour
-
-if you want to change colur change `notify("~r~X~s~: "..roundx.. " ~r~Y~s~: "..roundy.." ~r~Z~s~: "..roundz)`
+# DO NOT CHANGE ANYTHING EXCEPT COLOUR, ELSE IT COULD BREAK THE SCRIPT
+If you want to change colour change `notify("~r~X~s~: "..roundx.. " ~r~Y~s~: "..roundy.." ~r~Z~s~: "..roundz)`
